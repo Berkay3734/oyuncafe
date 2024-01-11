@@ -1,7 +1,11 @@
 import React from "react";
 
 function Menu({ name }) {
-  return <div className="menu"></div>;
+  return (
+    <a href="www.google.com" className="menu">
+      <p>{name}</p>
+    </a>
+  );
 }
 
 export default Menu;
