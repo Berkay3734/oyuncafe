@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+li, summary { list-style: none;}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.register {
+
+    width: 600px;
+    border-radius: 20px;
+    background: #003846;
+
+    & header {
+        border-radius: 20px 20px 0px 0px;
+        background: linear-gradient(180deg, #036072 0%, #001A29 100%);
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        letter-spacing: 1px;
+        position: relative;
+
+        & button {
+            position: absolute;
+            padding: 0;
+            right: 20px;
+            border: none;
+            background: #0E3940;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+
+    & form {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    } & input {
+        width: 100%;
+        border-radius: 20px;
+        background: #002736;
+        box-shadow: -1px -3px 5px 0.5px rgba(120, 154, 164, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+        font-family: 'Nunito', sans-serif;
+        padding: 10px 15px;
+        color: #fff;
+        margin-bottom: 10px;
+    } & label {
+        width: 100%;
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        padding: 0 10px;
+    }
+
+    & form > label:first-child {
+        display: flex;
+        justify-content: space-between;
+        & a {
+            color: #FFF;
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    & button {
+        border-radius: 20px;
+        background: linear-gradient(180deg, #10DBAC 0%, #026C4C 100%);
+        border: none;
+        padding: 15px 60px;
+        color: #FFF;
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.gender {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+
+    & label {
+        text-align: center;
+    }
+}
+
+.choises {
+    display: flex;
+    gap: 20px;
+}
+
+.choise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #002736;
+    padding: 5px 10px;
+
+    & > input {
+        margin-bottom: 0;
+    }
+
+    & span {
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+/* login css */
+
+.login {
+    width: 600px;
+    border-radius: 20px;
+    background: #003846;
+    position: relative;
+    margin-bottom: 50px;
+
+    & header {
+        border-radius: 20px 20px 0px 0px;
+        background: linear-gradient(180deg, #035D6E 0%, #01202F 100%);
+
+        & h2 {
+            color: #FFF;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            letter-spacing: 1px;
+        }
+
+    }
+
+    & form {
+        display: flex;
+        height: 180px;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        padding: 0 10px;
+        & input {
+            border-radius: 10px;
+            background: #0D414F;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -1px -3px 5px 1px rgba(255, 255, 255, 0.10) inset;
+            border: none;
+            padding: 10px 15px;
+            color: #fff;
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 1px;
+
+        }
+    }
+}
+
+.loginBtns {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    bottom: -20px;
+    & button {
+        width: 100px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: 2px solid #000;
+        border-radius: 20px;
+        letter-spacing: 1px;
+    }
+
+    #close {
+        background: linear-gradient(180deg, #D1B63B 0%, #846401 100%);
+    }
+
+    #login {
+        background: linear-gradient(180deg, #4BC11D 0%, #098008 100%);
+    }
+}
+
+.otherBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & button {
+        width: 150px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        letter-spacing: 1px;
+    }
+
+    & button:hover {
+        border: 1px solid #000;
+        transition: all .5s;
+    }
+
+    #forgetPassword {
+        background: #30464E;
+        color: #FFF;
+        font-size: 13px;
+    }
+
+    #register {
+        background: #FBD952;
+        color: #000;
+        font-size: 16px;
+    }
+}
