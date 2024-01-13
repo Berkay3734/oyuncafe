@@ -10,7 +10,7 @@ const Facebook = ({ onclick }) => {
         height: "30px",
         cursor: "pointer",
       }}
-      onClick={onclick}
+      // onClick={onclick}
     />
   );
 };

@@ -10,7 +10,7 @@ function Twitter({ onclick }) {
         height: "30px",
         cursor: "pointer",
       }}
-      onClick={onclick}
+      // onClick={onclick}
     />
   );
 }
