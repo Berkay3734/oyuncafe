@@ -236,3 +236,42 @@ button {
   letter-spacing: 0em;
   text-align: left;
 }
+.footer-container {
+  display: flex;
+  width: 100%;
+  height: 17%;
+  justify-content: space-between;
+  align-items: center;
+}
+.politika {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sirket {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.store {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.market {
+  width: 30%;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  background-color: #200f26;
+  border-radius: 5px;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 700;
+}

@@ -9,6 +9,7 @@ import Left from "./icons/Left";
 import PlayWhite from "./icons/Play";
 import Reklam from "./icons/Reklam";
 import Right from "./icons/Right";
+import Footer from "./components/Footer";
 
 function App() {
   const orange = {
@@ -119,6 +120,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
